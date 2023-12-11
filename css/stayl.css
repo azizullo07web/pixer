@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.Logo{
+    text-decoration: none;
+    color: black;
+}
+.container{
+    width: 1100px;
+    margin: 0 auto;
+}
+header{
+    padding: 16px 0;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.10);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_list{
+    list-style-type: none;
+    display: flex;
+}
+.nav_item{
+    margin-left: 32px;
+}
+.nav_item a{
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+}
+.nav_tel a{
+    background-color: #00BAFC;
+    border-radius: 5px;
+    padding: 8px 16px;
+    color: white;
+}
+
+
+/* Hero boshlandi */
+
+.hero{
+    padding-top: 140px;
+    padding-bottom: 90px;
+}
+.hero_inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero_left{
+    width: 470px;
+}
+.hero_title{
+    color: #000;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 130%;
+}
+.hero_info{
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 16px;
+}
+.hero_btn{
+    padding: 8px 16px;
+    background-color: #00BAFC;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 16px;
+}
+
+
+/* services */
+.services{
+    padding: 56px 0;
+}
+.services_title{
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+}
+.services_dis{
+    width: 719px;
+    color: #000;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0 auto;
+    margin-top: 16px;
+}
+.services_list{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.services_item{
+    margin-top: 48px;
+    padding: 24px;
+    text-align: center;
+    width: 320px;
+    height: 260px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.10);
+}
+.services_control{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    align-items: center;
+}
+.services_control button{
+    background-color: #00BAFC;
+    border-radius: 5px;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+}
+.services_control a{
+    margin-left: 16px;
+    color: #00BAFC;
+}
+
+/* Working */
+
+.working{
+    padding: 56px 0;
+}
+.working_title{
+    color: #000;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 130%;
+}
+.working_des{
+    width: 719px;
+    color: #000;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0 auto;
+    margin-top: 16px;
+}
+.working_item img{
+    width: 300px;
+    height: 200px;
+}
+.working_list{
+    list-style-type: none;
+}
+.working_item{
+    margin-top: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.working_item:nth-child(even){
+    flex-direction: row-reverse;
+}
+.working_btn{
+    background-color: #00BAFC;
+    background-repeat: 5px;
+    padding: 8px 16px;
+    color: white;
+    border: none;
+    margin-right: 16px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+/* order */
+.order{
+    background-color: #00BAFC;
+    padding: 56px 0;
+}
+.order_div{
+    color: white;
+    padding: 56px;
+    text-align: center;
+}
+.order_form{
+    border-radius: 5px;
+    background: #fff;
+    width: 348px;
+    height: 304px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 24px;
+}
+.order_inp{
+    padding: 16px;
+    background-color: #F3F3F3;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+.order_select{
+    padding: 16px;
+    background-color: #F3F3F3;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+.order_btn{
+    background-color: #00BAFC;
+    background-repeat: 5px;
+    padding: 8px 16px;
+    color: white;
+    border: none;
+    margin-right: 16px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* footer */
+.footer{
+    background: black;
+}
+.footer_text{
+    padding: 56px 0;
+    display: flex;
+}
+.text{
+    color: white;
+}
+.text p{
+    margin-top: 15px;
+    width: 400px;
+}
+.linklar{
+    line-height: 30px;
+    margin-left: 50px;
+    color: white;
+}
+.linklar a{
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+.internetda{
+    margin-left: 100px;
+    display: block;
+    color: white;
+}
+.internetda a{
+    line-height: 30px;
+    color: white;
+    display: block;
+    text-decoration: none;
+}
